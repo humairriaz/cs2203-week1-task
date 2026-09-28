@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#191526" />
+  <title>DeepCiphers Agent Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand-row">
+      <div class="brand-mark">DC</div>
+      <div class="brand-copy"><b>DeepCiphers</b><span>Company OS</span></div>
+      <button class="icon-btn mobile-only" id="closeSidebar" aria-label="Close menu">×</button>
+    </div>
+
+    <nav id="nav" class="nav-list">
+      <button class="nav-item active" data-view="overview"><span>⌂</span><b>Overview</b></button>
+      <button class="nav-item" data-view="agent"><span>✦</span><b>DeepCiphers Agent</b></button>
+      <button class="nav-item" data-view="team"><span>◉</span><b>Team</b></button>
+      <button class="nav-item" data-view="projects"><span>▣</span><b>Projects</b></button>
+      <button class="nav-item" data-view="tasks"><span>✓</span><b>Tasks</b></button>
+      <button class="nav-item" data-view="hr"><span>♙</span><b>HR & Ops</b></button>
+      <button class="nav-item" data-view="sales"><span>↗</span><b>Sales</b></button>
+      <button class="nav-item" data-view="finance"><span>₨</span><b>Finance</b></button>
+      <button class="nav-item" data-view="knowledge"><span>◇</span><b>Knowledge</b></button>
+      <button class="nav-item" data-view="reports"><span>▤</span><b>Reports</b></button>
+      <button class="nav-item" data-view="settings"><span>⚙</span><b>Settings</b></button>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <div class="admin-mini">
+        <div class="avatar">HR</div>
+        <div><b>Humair Riaz</b><span>Founder / Admin</span></div>
+      </div>
+      <div class="version">V17 · GitHub Pages Preview</div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="top-left">
+        <button class="icon-btn mobile-only" id="openSidebar">☰</button>
+        <div>
+          <h1 id="pageTitle">Overview</h1>
+          <p id="pageSubtitle">Live company operations and AI workspace</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <span class="status-pill"><i></i><span>Frontend Preview</span></span>
+        <button class="ghost-btn" id="refreshBtn">↻ Refresh</button>
+      </div>
+    </header>
+
+    <section class="view active" id="view-overview"></section>
+    <section class="view" id="view-agent"></section>
+    <section class="view" id="view-team"></section>
+    <section class="view" id="view-projects"></section>
+    <section class="view" id="view-tasks"></section>
+    <section class="view" id="view-hr"></section>
+    <section class="view" id="view-sales"></section>
+    <section class="view" id="view-finance"></section>
+    <section class="view" id="view-knowledge"></section>
+    <section class="view" id="view-reports"></section>
+    <section class="view" id="view-settings"></section>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="./app.js"></script>
+</body>
+</html>
