@@ -1,0 +1,16 @@
+{
+  "name": "deepciphers-v17-full-working",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Full working DeepCiphers company AI agent dashboard with persistent local data and optional Gemini enhancement.",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "smoke": "node scripts/smoke-test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

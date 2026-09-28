@@ -1,0 +1,438 @@
+{
+  "company": {
+    "name": "DeepCiphers",
+    "tagline": "Software, AI & intelligent automation",
+    "workModel": "Remote-first",
+    "mission": "Build practical digital products and AI systems that improve real business workflows.",
+    "services": [
+      "Web Development",
+      "Mobile App Development",
+      "Custom Software",
+      "CRM Development",
+      "E-Commerce",
+      "UX/UI Design",
+      "AI Consultancy",
+      "Workflow Automation",
+      "AI Agents",
+      "AI Chatbots"
+    ]
+  },
+  "employees": [
+    {
+      "id": "e1",
+      "employeeCode": "DC26-DEV-EMP-001",
+      "name": "Ali Khan",
+      "role": "Frontend Developer",
+      "department": "Engineering",
+      "departmentCode": "DEV",
+      "systemRole": "EMPLOYEE",
+      "memberType": "EMPLOYEE",
+      "isActive": true,
+      "currentStatus": "WORKING",
+      "currentProject": "Client Portal",
+      "currentTask": "Responsive dashboard",
+      "lastSeenAt": "2026-09-28T17:20:00Z",
+      "leaveBalance": 11
+    },
+    {
+      "id": "e2",
+      "employeeCode": "DC26-AI-EMP-002",
+      "name": "Sarah Ahmed",
+      "role": "AI Engineer",
+      "department": "AI & Automation",
+      "departmentCode": "AI",
+      "systemRole": "EMPLOYEE",
+      "memberType": "EMPLOYEE",
+      "isActive": true,
+      "currentStatus": "WORKING",
+      "currentProject": "DeepCiphers Agent",
+      "currentTask": "Agent memory",
+      "lastSeenAt": "2026-09-28T17:24:00Z",
+      "leaveBalance": 8
+    },
+    {
+      "id": "e3",
+      "employeeCode": "DC26-BE-EMP-003",
+      "name": "Hamza Malik",
+      "role": "Backend Developer",
+      "department": "Engineering",
+      "departmentCode": "BE",
+      "systemRole": "TEAM_LEAD",
+      "memberType": "EMPLOYEE",
+      "isActive": true,
+      "currentStatus": "REVIEW",
+      "currentProject": "Client Portal",
+      "currentTask": "API review",
+      "lastSeenAt": "2026-09-28T17:18:00Z",
+      "leaveBalance": 9
+    },
+    {
+      "id": "e4",
+      "employeeCode": "DC26-UX-EMP-004",
+      "name": "Zara Rehman",
+      "role": "Product Designer",
+      "department": "Design",
+      "departmentCode": "UX",
+      "systemRole": "EMPLOYEE",
+      "memberType": "EMPLOYEE",
+      "isActive": true,
+      "currentStatus": "WORKING",
+      "currentProject": "DeepCiphers Agent",
+      "currentTask": "Dashboard UX",
+      "lastSeenAt": "2026-09-28T17:21:00Z",
+      "leaveBalance": 10
+    },
+    {
+      "id": "e5",
+      "employeeCode": "DC26-QA-EMP-005",
+      "name": "Usman Tariq",
+      "role": "QA Engineer",
+      "department": "Quality Assurance",
+      "departmentCode": "QA",
+      "systemRole": "EMPLOYEE",
+      "memberType": "EMPLOYEE",
+      "isActive": true,
+      "currentStatus": "AVAILABLE",
+      "currentProject": "DeepCiphers Agent",
+      "currentTask": "Regression testing",
+      "lastSeenAt": "2026-09-28T17:15:00Z",
+      "leaveBalance": 12
+    },
+    {
+      "id": "e6",
+      "employeeCode": "DC26-HR-EMP-006",
+      "name": "Ayesha Noor",
+      "role": "HR & Operations",
+      "department": "HR & Operations",
+      "departmentCode": "HR",
+      "systemRole": "HR",
+      "memberType": "EMPLOYEE",
+      "isActive": true,
+      "currentStatus": "WORKING",
+      "currentProject": "Internal Operations",
+      "currentTask": "Leave requests",
+      "lastSeenAt": "2026-09-28T17:19:00Z",
+      "leaveBalance": 7
+    },
+    {
+      "id": "e7",
+      "employeeCode": "DC26-DEV-INT-007",
+      "name": "Bilal Ahmed",
+      "role": "Web Development Intern",
+      "department": "Engineering",
+      "departmentCode": "DEV",
+      "systemRole": "INTERN",
+      "memberType": "INTERN",
+      "isActive": true,
+      "currentStatus": "WORKING",
+      "currentProject": "Company Website",
+      "currentTask": "Partnership gallery",
+      "lastSeenAt": "2026-09-28T17:10:00Z",
+      "leaveBalance": 4
+    },
+    {
+      "id": "e8",
+      "employeeCode": "DC26-BD-EMP-008",
+      "name": "Mariam Shah",
+      "role": "Business Development",
+      "department": "Sales",
+      "departmentCode": "BD",
+      "systemRole": "EMPLOYEE",
+      "memberType": "EMPLOYEE",
+      "isActive": true,
+      "currentStatus": "AVAILABLE",
+      "currentProject": "Sales Pipeline",
+      "currentTask": "Follow-ups",
+      "lastSeenAt": "2026-09-28T17:16:00Z",
+      "leaveBalance": 10
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "code": "DC-AI-01",
+      "name": "DeepCiphers Agent",
+      "clientName": "Internal",
+      "status": "ACTIVE",
+      "progress": 78,
+      "manager": "Humair Riaz",
+      "lead": "Sarah Ahmed",
+      "deadline": "2026-10-05",
+      "description": "Internal AI operations agent and dashboard."
+    },
+    {
+      "id": "p2",
+      "code": "DC-WEB-02",
+      "name": "Client Portal",
+      "clientName": "Northstar Labs",
+      "status": "AT_RISK",
+      "progress": 64,
+      "manager": "Humair Riaz",
+      "lead": "Hamza Malik",
+      "deadline": "2026-10-01",
+      "description": "Full-stack customer operations portal."
+    },
+    {
+      "id": "p3",
+      "code": "DC-WEB-03",
+      "name": "Company Website",
+      "clientName": "DeepCiphers",
+      "status": "ACTIVE",
+      "progress": 86,
+      "manager": "Humair Riaz",
+      "lead": "Zara Rehman",
+      "deadline": "2026-10-08",
+      "description": "Marketing website and case-study experience."
+    },
+    {
+      "id": "p4",
+      "code": "DC-AUTO-04",
+      "name": "Lead Automation",
+      "clientName": "Orbit Commerce",
+      "status": "ACTIVE",
+      "progress": 52,
+      "manager": "Humair Riaz",
+      "lead": "Sarah Ahmed",
+      "deadline": "2026-10-14",
+      "description": "CRM lead capture and follow-up automation."
+    },
+    {
+      "id": "p5",
+      "code": "DC-MOB-05",
+      "name": "Service App",
+      "clientName": "Vista Services",
+      "status": "PLANNING",
+      "progress": 18,
+      "manager": "Humair Riaz",
+      "lead": "Ali Khan",
+      "deadline": "2026-11-02",
+      "description": "Mobile-first service booking product."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "projectId": "p2",
+      "title": "Client Portal API integration",
+      "assigneeId": "e1",
+      "status": "IN_PROGRESS",
+      "priority": "HIGH",
+      "dueAt": "2026-09-27",
+      "updatedAt": "2026-09-28T15:00:00Z"
+    },
+    {
+      "id": "t2",
+      "projectId": "p1",
+      "title": "Gemini thought-signature regression",
+      "assigneeId": "e2",
+      "status": "REVIEW",
+      "priority": "HIGH",
+      "dueAt": "2026-09-29",
+      "updatedAt": "2026-09-28T16:00:00Z"
+    },
+    {
+      "id": "t3",
+      "projectId": "p1",
+      "title": "Admin dashboard responsive polish",
+      "assigneeId": "e4",
+      "status": "IN_PROGRESS",
+      "priority": "MEDIUM",
+      "dueAt": "2026-09-30",
+      "updatedAt": "2026-09-28T16:30:00Z"
+    },
+    {
+      "id": "t4",
+      "projectId": "p2",
+      "title": "Authentication QA fixes",
+      "assigneeId": "e5",
+      "status": "BLOCKED",
+      "priority": "HIGH",
+      "dueAt": "2026-09-28",
+      "updatedAt": "2026-09-28T15:40:00Z"
+    },
+    {
+      "id": "t5",
+      "projectId": "p3",
+      "title": "Partnership gallery implementation",
+      "assigneeId": "e7",
+      "status": "IN_PROGRESS",
+      "priority": "MEDIUM",
+      "dueAt": "2026-10-02",
+      "updatedAt": "2026-09-28T14:20:00Z"
+    },
+    {
+      "id": "t6",
+      "projectId": "p4",
+      "title": "CRM webhook mapping",
+      "assigneeId": "e3",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueAt": "2026-10-03",
+      "updatedAt": "2026-09-28T12:00:00Z"
+    },
+    {
+      "id": "t7",
+      "projectId": "p1",
+      "title": "Agent memory search",
+      "assigneeId": "e2",
+      "status": "DONE",
+      "priority": "MEDIUM",
+      "dueAt": "2026-09-27",
+      "updatedAt": "2026-09-27T18:00:00Z"
+    },
+    {
+      "id": "t8",
+      "projectId": "p3",
+      "title": "Header mobile navigation",
+      "assigneeId": "e1",
+      "status": "REVIEW",
+      "priority": "MEDIUM",
+      "dueAt": "2026-09-29",
+      "updatedAt": "2026-09-28T11:00:00Z"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "l1",
+      "employeeId": "e1",
+      "from": "2026-10-03",
+      "to": "2026-10-04",
+      "reason": "Personal work",
+      "status": "PENDING",
+      "createdAt": "2026-09-27T10:00:00Z"
+    },
+    {
+      "id": "l2",
+      "employeeId": "e7",
+      "from": "2026-10-07",
+      "to": "2026-10-07",
+      "reason": "University exam",
+      "status": "PENDING",
+      "createdAt": "2026-09-28T09:00:00Z"
+    }
+  ],
+  "salesLeads": [
+    {
+      "id": "s1",
+      "company": "Atlas Retail",
+      "contact": "Nadia",
+      "stage": "NEW",
+      "value": 3200,
+      "currency": "USD",
+      "ownerId": "e8",
+      "nextFollowUp": "2026-09-29"
+    },
+    {
+      "id": "s2",
+      "company": "CloudRoute",
+      "contact": "Omar",
+      "stage": "PROPOSAL",
+      "value": 6800,
+      "currency": "USD",
+      "ownerId": "e8",
+      "nextFollowUp": "2026-09-30"
+    },
+    {
+      "id": "s3",
+      "company": "Nexa Foods",
+      "contact": "Hassan",
+      "stage": "NEGOTIATION",
+      "value": 5100,
+      "currency": "USD",
+      "ownerId": "e8",
+      "nextFollowUp": "2026-10-01"
+    },
+    {
+      "id": "s4",
+      "company": "Vertex Health",
+      "contact": "Amna",
+      "stage": "WON",
+      "value": 4200,
+      "currency": "USD",
+      "ownerId": "e8",
+      "nextFollowUp": "2026-10-04"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "i1",
+      "projectId": "p2",
+      "client": "Northstar Labs",
+      "amount": 1800,
+      "currency": "USD",
+      "status": "OVERDUE",
+      "dueDate": "2026-09-26"
+    },
+    {
+      "id": "i2",
+      "projectId": "p4",
+      "client": "Orbit Commerce",
+      "amount": 2200,
+      "currency": "USD",
+      "status": "SENT",
+      "dueDate": "2026-10-01"
+    },
+    {
+      "id": "i3",
+      "projectId": "p5",
+      "client": "Vista Services",
+      "amount": 950,
+      "currency": "USD",
+      "status": "DRAFT",
+      "dueDate": "2026-10-08"
+    },
+    {
+      "id": "i4",
+      "projectId": "p3",
+      "client": "DeepCiphers",
+      "amount": 0,
+      "currency": "USD",
+      "status": "PAID",
+      "dueDate": "2026-09-20"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "k1",
+      "category": "Company",
+      "title": "DeepCiphers profile",
+      "content": "DeepCiphers is a software and AI company delivering web, mobile, custom software, CRM, e-commerce, design, AI consultancy, workflow automation, AI agents and chatbots."
+    },
+    {
+      "id": "k2",
+      "category": "Operations",
+      "title": "Team lead review flow",
+      "content": "Project work submitted by a team member moves to the assigned Team Lead for review before the Project Manager or Admin considers it complete."
+    },
+    {
+      "id": "k3",
+      "category": "HR",
+      "title": "Leave workflow",
+      "content": "Employees submit leave requests in the portal. HR or Admin reviews pending requests and records approval or rejection."
+    },
+    {
+      "id": "k4",
+      "category": "Agent",
+      "title": "Company Agent purpose",
+      "content": "The DeepCiphers Agent provides operational answers using team, projects, tasks, HR, sales, finance, reports and company knowledge context."
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "title": "Project review waiting",
+      "body": "Gemini thought-signature regression is waiting for review.",
+      "kind": "REVIEW",
+      "createdAt": "2026-09-28T16:00:00Z"
+    },
+    {
+      "id": "n2",
+      "title": "Leave request pending",
+      "body": "Ali Khan submitted a leave request.",
+      "kind": "HR",
+      "createdAt": "2026-09-27T10:00:00Z"
+    }
+  ],
+  "operatorQueue": [],
+  "memories": []
+}
